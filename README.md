@@ -51,7 +51,16 @@ Aplicaciones: computación, física, arte y modelado de la naturaleza.
 ---
 
 ## 🚀 Uso
+# Run Mandelbrot
+./fractol Mandelbrot
+
+# Run Julia with custom parameters
+./fractol Julia [real] [imaginary]
+
+# Example
+./fractol Julia -0.8 0.156
 
 ### 🔧 Compilación
+
 ```bash
 make
